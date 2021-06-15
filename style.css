@@ -5,12 +5,15 @@ span,p{
     font-family: 'Rubik', sans-serif;
 }
 
-
 /* header */
 .header{
     box-shadow: 1px 1px 20px #ddd;
     padding: 0;
     background-color: #fff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 1020;
 }
 .header .container-fluid{
     max-width: 1250px;
@@ -126,33 +129,8 @@ ul.primary-menu li:hover > a{
 	font-weight: 400;
 	padding: 10px 12px;
 }
-/* .header-search span ul li input{
-	display: block;
-	width: 100%;
-	height: 50px;
-	line-height: initial;
-	border: 1px solid #eee;
-	color: #111;
-	outline: 0;
-	-webkit-transition: .5s;
-	transition: .5s;
-	padding-top: 4px;
-	padding-left: 10px;
-} */
-/* .header-search span ul li button{
-	position: absolute;
-	right: 0;
-	top: 0;
-	height: 50px;
-	background: 0 0;
-	border: none;
-	width: 50px;
-	outline: 0;
-	color: #606060;
-	-webkit-transition: .5s;
-	transition: .5s;
-	padding: 0;
-} */
+
+
 
 .header-call-info {
 	width: 185px;

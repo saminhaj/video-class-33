@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fix-width{
+    max-width: 1100px;
+    margin: auto;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+body,h1,h2,h3,h4,h5,h6,span,p,strong,a{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* header */
+
+.header{}
+.header-logo{
+    width: 30%;
+}
+.header-logo a{}
+.header-logo a img{}
+.header-menu{
+    width: 70%;
+}
+.header-menu ul{}
+.header-menu ul li{
+    display: inline-block;
+}
+.header-menu ul li a{
+    display: inline-block;
+}
+.header-menu ul li a:hover{}
